@@ -1,6 +1,6 @@
 
 #define SAMPLE_TIME        0.1   ///< Control loop in s
-#define RATIO              54    ///< Gear ratio of rotator gear box          default 54, orig is 108, put 1 to make 1 step = 1 deg (good for debugging without gear)
+#define RATIO              54    ///< Gear ratio of rotator gear box for V3.1 Satnogs
 #define MICROSTEP          8     ///< Set Microstep
 #define MIN_PULSE_WIDTH    20    ///< In microsecond for AccelStepper
 #define MAX_SPEED          3200  ///< In steps/s, consider the microstep, default 3200
